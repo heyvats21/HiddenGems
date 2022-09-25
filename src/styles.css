@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Kanit:ital@1&display=swap");
+.App {
+  font-family: "Abyssinica SIL", serif;
+  font-family: "Kanit", sans-serif;
+}
+
+:root {
+  --primary-color: #fff5e4;
+  --secondary-color: rgba(128, 126, 0, 0.452);
+  --txt-color: rgb(238, 130, 130);
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+  color: var(--txt-color);
+}
+
+body {
+  background-color: var(--primary-color);
+  margin: 0;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.heading {
+  display: inline;
+  font-size: 3rem;
+}
+
+button {
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin: 0.5rem;
+  padding: 0.2rem;
+  border-radius: 0.5rem;
+  background-color: var(--secondary-color);
+  border: 5px;
+}
+
+.hidden-img {
+  width: 250px;
+  height: 250px;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.rating {
+  font-weight: bold;
+}
+.list-holder {
+  padding: 0.5rem 0.5rem;
+  margin: auto;
+}
+
+.city-name {
+  font-size: 2rem;
+  color: var(--txt-color);
+}
+
+.description-box {
+  text-align: center;
+}
